@@ -24,6 +24,8 @@ public class WorkoutSession
     public DateTime CreatedAt { get; set; }
     public Trainer Trainer { get; set; }
     public Workout Workout { get; set; }
+    public Client Client { get; set; }
+
 
     // Id (int, primary key)
     // TrainerId (foreign key)

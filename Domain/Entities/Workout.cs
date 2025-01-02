@@ -14,6 +14,8 @@ public class Workout
     public int MaxParticipants { get; set; }
     public WorkoutDifficulty Difficulty { get; set; }
     public bool IsActive { get; set; }
+    public List<WorkoutSession> WorkoutSessions { get; set; }
+
 
     // Id (int, primary key)
     // Name (string, required, max 100 characters)

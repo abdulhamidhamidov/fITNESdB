@@ -16,7 +16,8 @@ public class Client
     public string Email { get; set; }
     public DateTime DateOfBirth { get; set; }
     public ClientMembershipStatus MemberShipStatus { get; set; }
-    
+    public List<WorkoutSession> WorkoutSessions { get; set; }
+
     // Id (int, primary key)
     // FirstName (string, required, max 50 characters)
     // LastName (string, required, max 50 characters)

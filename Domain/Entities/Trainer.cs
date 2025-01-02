@@ -17,4 +17,6 @@ public class Trainer
     public TrainerStatus Status { get; set; }
     [MaxLength(100)]
     public string Specialization { get; set; }
+
+    public List<WorkoutSession> WorkoutSessions { get; set; }
 }
